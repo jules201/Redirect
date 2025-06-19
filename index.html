@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    // Base LimeSurvey URL (your actual survey link)
+    const baseUrl = "https://survey.academiccloud.de/index.php/578986?newtest=Y&lang=de";
+
+    // Get the query string from the current URL
+    const queryParams = window.location.search;
+
+    // Build the final URL with all parameters
+    const finalUrl = baseUrl + queryParams;
+
+    // Redirect
+    window.location.href = finalUrl;
+  </script>
+</head>
+<body>
+  <p>Redirecting to the survey, please wait...</p>
+</body>
+</html>
